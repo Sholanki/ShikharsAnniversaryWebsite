@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Shikhar and Gunjan's Wedding Anniversary</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="header">
+		<h2 class="glow-normal">And The Story Continues...</h2>
+	</div>
+	
+	<div class="row">
+	<div class="side-end">
+		<div class="slideshow-container">
+
+		<div class="mySlides fade">
+		  <img src="images/engagement_1.jpg" style="width:70%">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="images/engagement_2.jpg" style="width:70%">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="images/engagement_3.jpg" style="width:70%">
+		</div>
+		
+		<div class="mySlides fade">
+		  <img src="images/holding_hands.jpg" style="width:70%">
+		</div>
+		
+		<div class="mySlides fade">
+		  <img src="images/groom_2.jpg" style="width:70%">
+		</div>
+		
+		<div class="mySlides fade">
+		  <img src="images/bride_groom_2.jpg" style="width:70%">
+		</div>
+		
+		<div class="mySlides fade">
+		  <img src="images/bride_groom_7.jpg" style="width:70%">
+		</div>
+		
+		<div class="mySlides fade">
+		  <img src="images/bride_groom_1.jpg" style="width:70%">
+		</div>
+		
+		<div class="mySlides fade">
+		  <img src="images/bride_groom_3.jpg" style="width:70%">
+		</div>
+		
+		<div class="mySlides fade">
+		  <img src="images/bride_groom_4.jpg" style="width:70%">
+		</div>
+		
+		<div class="mySlides fade">
+		  <img src="images/bride_groom_5.jpg" style="width:70%">
+		</div>
+		
+		<div class="mySlides fade">
+		  <img src="images/bride_groom_6.jpg" style="width:70%">
+		</div>
+		
+		<div class="mySlides fade">
+		  <img src="images/bride_groom_8.jpg" style="width:70%">
+		</div>
+
+		</div>
+		</div>
+		
+		<div class="main-end">
+			<h3>Thus the story of Shikhar Dwivedi and Gunjan Dwivedi has been continuing for 2 years</h3>
+			<h3> And will continue happily ever after... </h3>
+		</div>
+		<br>
+
+		<div style="text-align:center">
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span>
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span>
+		  <span class="dot"></span>
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		</div>
+
+		<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";  
+		  }
+		  slideIndex++;
+		  if (slideIndex > slides.length) {slideIndex = 1}    
+		  for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		  setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+		</script>
+			
+						
+		
+		
+		
+	</div>
+</body>
+</html>
